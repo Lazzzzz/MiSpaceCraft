@@ -1,22 +1,18 @@
 {
   "itemGroup.mispacecraft": "Mi-SpaceCraft",
-
   "block.mispacecraft.example_block": "Example Block",
   "block.mispacecraft.example_machine": "Example Machine",
-
+  "block.mispacecraft.moon_surface": "Moon Regolith",
+  "block.mispacecraft.moon_stone": "Moon Stone",
   "item.mispacecraft.example_item": "Example Item",
-
   "tooltip.mispacecraft.example_item": "An example item with custom behavior",
-
   "message.mispacecraft.example_item_use": "You used the example item!",
-
   "container.mispacecraft.example_machine": "Example Machine",
-
   "biome.mispacecraft.moon": "Moon",
+  "biome.mispacecraft.moon_surface": "Moon Surface",
   "biome.mispacecraft.deep_space": "Deep Space",
-
+  "dimension.mispacecraft.moon": "The Moon",
   "key.categories.mispacecraft": "Mi-SpaceCraft",
-
   "gui.mispacecraft.energy": "Energy: %s / %s",
   "gui.mispacecraft.progress": "Progress: %s%%"
 }

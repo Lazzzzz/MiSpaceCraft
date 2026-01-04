@@ -1,0 +1,564 @@
+﻿Invalid Java installation found at 'C:\Program Files\Java\jdk-17.0.1' (Windows Registry) auto-detected. It will be re-checked in the next build. This might have performance impact if it keeps failing. Run the 'javaToolchains' task for more details.
+> Task :neoFormListLibraries UP-TO-DATE
+> Task :neoFormListTransformLibraries UP-TO-DATE
+> Task :cacheVersionManifest1.21.11 UP-TO-DATE
+> Task :cacheVersionMappingsClient1.21.11 UP-TO-DATE
+> Task :cacheVersionExecutableClient1.21.11 UP-TO-DATE
+> Task :neoFormStripClientFinals UP-TO-DATE
+> Task :cacheVersionExecutableServer1.21.11 UP-TO-DATE
+> Task :neoFormStripServerFinals UP-TO-DATE
+> Task :neoFormSetup UP-TO-DATE
+> Task :neoFormDecompile UP-TO-DATE
+> Task :neoFormInject UP-TO-DATE
+> Task :neoFormPatch UP-TO-DATE
+> Task :neoFormPatchUserDev UP-TO-DATE
+> Task :neoFormTransformSource UP-TO-DATE
+> Task :neoFormRecompile UP-TO-DATE
+> Task :supplyRawJarForneoFormJoined1.21.11-20251209.172050 UP-TO-DATE
+> Task :selectRawArtifactNg_dummy_ng.net.neoforged_neoforge_21.11.21-beta UP-TO-DATE
+
+> Task :compileJava FAILED
+.\gradlew.bat : E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacec
+raft\world\ModBiomes.java:6: error: cannot find symbol
+Au caractère Ligne:1 : 1
++ .\gradlew.bat compileJava --stacktrace 2>&1 | Out-File -FilePath buil ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (E:\MOD MC SPACE...not find symbol:Stri 
+   ng) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+import net.minecraft.resources.ResourceLocation;
+                              ^
+  symbol:   class ResourceLocation
+  location: package net.minecraft.resources
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\ModDi
+mensions.java:6: error: cannot find symbol
+import net.minecraft.resources.ResourceLocation;
+                              ^
+  symbol:   class ResourceLocation
+  location: package net.minecraft.resources
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regist
+ry\ModBlocks.java:31: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerBlock(
+                                                                   ^
+  where B is a type-variable:
+    B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regist
+ry\ModBlocks.java:43: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+    public static final DeferredBlock<Block> EXAMPLE_MACHINE = BLOCKS.registerBlock(
+                                                                     ^
+  where B is a type-variable:
+    B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regist
+ry\ModBlocks.java:57: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+    public static final DeferredBlock<Block> MOON_SURFACE = BLOCKS.registerBlock(
+                                                                  ^
+  where B is a type-variable:
+    B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regist
+ry\ModBlocks.java:68: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+    public static final DeferredBlock<Block> MOON_STONE = BLOCKS.registerBlock(
+                                                                ^
+  where B is a type-variable:
+    B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\ModBi
+omes.java:17: error: cannot find symbol
+            ResourceLocation.fromNamespaceAndPath(MiSpaceCraft.MOD_ID, 
+"moon_surface"));
+            ^
+  symbol:   variable ResourceLocation
+  location: class ModBiomes
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\ModDi
+mensions.java:18: error: cannot find symbol
+            ResourceLocation.fromNamespaceAndPath(MiSpaceCraft.MOD_ID, "moon"));
+            ^
+  symbol:   variable ResourceLocation
+  location: class ModDimensions
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\ModDi
+mensions.java:22: error: cannot find symbol
+            ResourceLocation.fromNamespaceAndPath(MiSpaceCraft.MOD_ID, "moon"));
+            ^
+  symbol:   variable ResourceLocation
+  location: class ModDimensions
+5 errors
+4 warnings
+
+[Incubating] Problems report is available at: file:///E:/MOD%20MC%20SPACECRAFT/MiSpaceCraft/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\Mod
+Biomes.java:6: error: cannot find symbol
+  import net.minecraft.resources.ResourceLocation;
+                                ^
+    symbol:   class ResourceLocation
+    location: package net.minecraft.resources
+  E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\Mod
+Dimensions.java:6: error: cannot find symbol
+  import net.minecraft.resources.ResourceLocation;
+                                ^
+    symbol:   class ResourceLocation
+    location: package net.minecraft.resources
+  E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\Mod
+Biomes.java:17: error: cannot find symbol
+              ResourceLocation.fromNamespaceAndPath(MiSpaceCraft.MOD_ID, 
+"moon_surface"));
+              ^
+    symbol:   variable ResourceLocation
+    location: class ModBiomes
+  E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\Mod
+Dimensions.java:18: error: cannot find symbol
+              ResourceLocation.fromNamespaceAndPath(MiSpaceCraft.MOD_ID, "moon"));
+              ^
+    symbol:   variable ResourceLocation
+    location: class ModDimensions
+  E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\Mod
+Dimensions.java:22: error: cannot find symbol
+              ResourceLocation.fromNamespaceAndPath(MiSpaceCraft.MOD_ID, "moon"));
+              ^
+    symbol:   variable ResourceLocation
+    location: class ModDimensions
+  E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regi
+stry\ModBlocks.java:31: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+      public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerBlock(
+                                                                     ^
+    where B is a type-variable:
+      B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+  E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regi
+stry\ModBlocks.java:43: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+      public static final DeferredBlock<Block> EXAMPLE_MACHINE = 
+BLOCKS.registerBlock(
+                                                                       ^
+    where B is a type-variable:
+      B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+  E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regi
+stry\ModBlocks.java:57: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+      public static final DeferredBlock<Block> MOON_SURFACE = BLOCKS.registerBlock(
+                                                                    ^
+    where B is a type-variable:
+      B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+  E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regi
+stry\ModBlocks.java:68: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+      public static final DeferredBlock<Block> MOON_STONE = BLOCKS.registerBlock(
+                                                                  ^
+    where B is a type-variable:
+      B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+  5 errors
+  4 warnings
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to generate a Build Scan (powered by Develocity).
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task 
+':compileJava'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$execut
+eIfValid$1(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:288)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfVali
+d(ExecuteActionsTaskExecuter.java:133)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(Execu
+teActionsTaskExecuter.java:121)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.exe
+cute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(F
+inalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute
+(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(Sk
+ipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyI
+fTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(Catch
+ExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(Ev
+entFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiri
+ngTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiri
+ngTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOper
+ationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFir
+ingTaskExecuter.java:52)
+	at org.gradle.execution.plan.DefaultNodeExecutor.executeLocalTaskNode(DefaultNodeEx
+ecutor.java:55)
+	at 
+org.gradle.execution.plan.DefaultNodeExecutor.execute(DefaultNodeExecutor.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsActi
+on.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsActi
+on.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExec
+utionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:339)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperati
+onRef.java:84)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExec
+utionAction.execute(DefaultTaskExecutionGraph.java:339)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExec
+utionAction.execute(DefaultTaskExecutionGraph.java:328)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlan
+Executor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExec
+utor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(E
+xecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExec
+utor.java:47)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: 
+Compilation failed; see the compiler output below.
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\ModBi
+omes.java:6: error: cannot find symbol
+import net.minecraft.resources.ResourceLocation;
+                              ^
+  symbol:   class ResourceLocation
+  location: package net.minecraft.resources
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\ModDi
+mensions.java:6: error: cannot find symbol
+import net.minecraft.resources.ResourceLocation;
+                              ^
+  symbol:   class ResourceLocation
+  location: package net.minecraft.resources
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\ModBi
+omes.java:17: error: cannot find symbol
+            ResourceLocation.fromNamespaceAndPath(MiSpaceCraft.MOD_ID, 
+"moon_surface"));
+            ^
+  symbol:   variable ResourceLocation
+  location: class ModBiomes
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\ModDi
+mensions.java:18: error: cannot find symbol
+            ResourceLocation.fromNamespaceAndPath(MiSpaceCraft.MOD_ID, "moon"));
+            ^
+  symbol:   variable ResourceLocation
+  location: class ModDimensions
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\world\ModDi
+mensions.java:22: error: cannot find symbol
+            ResourceLocation.fromNamespaceAndPath(MiSpaceCraft.MOD_ID, "moon"));
+            ^
+  symbol:   variable ResourceLocation
+  location: class ModDimensions
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regist
+ry\ModBlocks.java:31: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerBlock(
+                                                                   ^
+  where B is a type-variable:
+    B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regist
+ry\ModBlocks.java:43: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+    public static final DeferredBlock<Block> EXAMPLE_MACHINE = BLOCKS.registerBlock(
+                                                                     ^
+  where B is a type-variable:
+    B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regist
+ry\ModBlocks.java:57: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+    public static final DeferredBlock<Block> MOON_SURFACE = BLOCKS.registerBlock(
+                                                                  ^
+  where B is a type-variable:
+    B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+E:\MOD MC SPACECRAFT\MiSpaceCraft\src\main\java\com\lazzzzz\mispacecraft\core\regist
+ry\ModBlocks.java:68: warning: [removal] 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties) in Blocks has 
+been deprecated and marked for removal
+    public static final DeferredBlock<Block> MOON_STONE = BLOCKS.registerBlock(
+                                                                ^
+  where B is a type-variable:
+    B extends Block declared in method 
+<B>registerBlock(String,Function<Properties,? extends B>,Properties)
+5 errors
+4 warnings
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.ja
+va:89)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.ja
+va:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleE
+rrors(NormalizingJavaCompiler.java:98)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(Normalizin
+gJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(Normalizin
+gJavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.exe
+cute(AnnotationProcessorDiscoveringCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.exe
+cute(AnnotationProcessorDiscoveringCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execu
+te(ModuleApplicationNameWritingCompiler.java:46)
+	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execu
+te(ModuleApplicationNameWritingCompiler.java:36)
+	at org.gradle.jvm.toolchain.internal.DefaultToolchainJavaCompiler.execute(DefaultTo
+olchainJavaCompiler.java:57)
+	at org.gradle.api.tasks.compile.JavaCompile.lambda$createToolchainCompiler$3(JavaCo
+mpile.java:206)
+	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.lambda$execu
+te$0(SelectiveCompiler.java:101)
+	at org.gradle.api.internal.tasks.compile.incremental.transaction.CompileTransaction
+.execute(CompileTransaction.java:108)
+	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(Sele
+ctiveCompiler.java:95)
+	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(Sele
+ctiveCompiler.java:44)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompil
+er.execute(IncrementalResultStoringCompiler.java:66)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompil
+er.execute(IncrementalResultStoringCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler
+$1.call(CompileJavaBuildOperationReportingCompiler.java:64)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler
+$1.call(CompileJavaBuildOperationReportingCompiler.java:48)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOper
+ationRunner.java:53)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler
+.execute(CompileJavaBuildOperationReportingCompiler.java:48)
+	at 
+org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:224)
+	at org.gradle.api.tasks.compile.JavaCompile.performIncrementalCompilation(JavaCompi
+le.java:165)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:150)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(Incr
+ementalTaskAction.java:45)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardT
+askAction.java:51)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.execute(Increm
+entalTaskAction.java:26)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardT
+askAction.java:29)
+	at 
+org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:252)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuil
+dOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOpera
+tionRunner.java:47)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecutio
+n.java:237)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecuti
+on.java:220)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputF
+iles(TaskExecution.java:203)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java
+:170)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java
+:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperatio
+nWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuil
+dOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildO
+perationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOper
+ationRunner.java:53)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionS
+tep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutSte
+p.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreate
+OutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreate
+OutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePrev
+iousOutputsStep.java:68)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePrev
+iousOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(Broadca
+stChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(Broadca
+stChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(Cap
+tureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(Cap
+tureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInput
+ChangesStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInput
+ChangesStep.java:28)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCach
+eStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeAndStoreInCache(BuildC
+acheStep.java:145)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$4(Bui
+ldCacheStep.java:101)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$executeWithCache$5(Bui
+ldCacheStep.java:101)
+	at org.gradle.internal.Try$Success.map(Try.java:170)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithCache(BuildCacheSt
+ep.java:85)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$0(BuildCacheSt
+ep.java:74)
+	at org.gradle.internal.Either$Left.fold(Either.java:116)
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+18 actionable tasks: 1 executed, 17 up-to-date
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at 
+org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at 
+org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecuti
+onStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecuti
+onStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDate
+Step.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDa
+teStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.ja
+va:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.ja
+va:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.ex
+ecute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.ex
+ecute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDe
+legate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDe
+legate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(Abst
+ractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(Abst
+ractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesSte
+p.java:64)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesSte
+p.java:35)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:62)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:40)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.exec
+ute(AbstractCaptureStateBeforeExecutionStep.java:76)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.exec
+ute(AbstractCaptureStateBeforeExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmpt
+ySources(AbstractSkipEmptyWorkStep.java:136)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSk
+ipEmptyWorkStep.java:66)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSk
+ipEmptyWorkStep.java:38)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.exe
+cute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadP
+reviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadP
+reviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOu
+tputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOu
+tputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(
+AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecut
+ion.java:297)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMut
+ableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMut
+ableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineSte
+p.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineSte
+p.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$e
+xecute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(
+ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(
+ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.
+java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.
+java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:44)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:31)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecu
+tionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfVali
+d(ExecuteActionsTaskExecuter.java:132)
+	... 30 more
+
+
+BUILD FAILED in 4s
