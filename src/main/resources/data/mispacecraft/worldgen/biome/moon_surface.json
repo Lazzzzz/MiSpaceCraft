@@ -19,10 +19,7 @@
         "misc": []
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": [],
-        "liquid": []
-    },
+    "carvers": [],
     "features": [
         [],
         [],
@@ -30,10 +27,18 @@
         [],
         [],
         [],
+        [
+            "mispacecraft:moon_iron_ore",
+            "mispacecraft:moon_gold_ore",
+            "mispacecraft:moon_diamond_ore"
+        ],
         [],
         [],
-        [],
-        [],
+        [
+            "mispacecraft:moon_rocks",
+            "mispacecraft:moon_boulder",
+            "mispacecraft:moon_basalt_pile"
+        ],
         []
     ]
 }
